@@ -1,0 +1,27 @@
+:root {
+    --primary: hsl(162, 100%, 35%);
+    --background: hsl(240, 5%, 7%);
+    --text: hsl(0, 0%, 100%);
+    --caption: hsl(240, 6%, 58%);
+    --gray: hsl(240, 9%, 89%);
+    --background-light: rgba(255, 255, 255, 0.05);
+  }
+  
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
